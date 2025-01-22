@@ -2,6 +2,7 @@
 {
   imports = [
     ./binds.nix
+    ./completion.nix
     ./languages.nix
     ./mini.nix
     ./options.nix
