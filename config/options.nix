@@ -2,7 +2,20 @@
   vim = {
     useSystemClipboard = true;
 
+    globals = {
+      neovide_scroll_animation_length = 0.1;
+      neovide_cursor_animation_length = 0.1;
+      neovide_cursor_trail_size = 0.3;
+      neovide_cursor_vfx_mode = "railgun";
+      neovide_padding_top = 10;
+      neovide_padding_bottom = 10;
+      neovide_padding_right = 10;
+      neovide_padding_left = 10;
+    };
+
     options = {
+      guifont = "Iosevka_Neudoerf:h12";
+
       # indent
       tabstop = 4;
       softtabstop = 4;
