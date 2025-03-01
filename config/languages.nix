@@ -28,15 +28,8 @@
         lsp.enable = true;
         treesitter.enable = true;
       };
-      ts.enable = true;
       python.enable = true;
-      html.enable = true;
-      css.enable = true;
-      tailwind.enable = true;
       lua.enable = true;
-      haskell.enable = true;
-      svelte.enable = true;
-      astro.enable = true;
     };
 
     lsp = {
